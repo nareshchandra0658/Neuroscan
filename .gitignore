@@ -1,0 +1,25 @@
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# MRI datasets - do not upload to GitHub
+data/
+datasets/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editor settings
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
